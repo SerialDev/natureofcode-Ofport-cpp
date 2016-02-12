@@ -4,7 +4,7 @@
 void ofApp::setup(){
     ofSetFrameRate(60);
     ofEnableSmoothing();
-    ofSetBackground(255);
+    ofBackground(255);
 }
 
 //--------------------------------------------------------------

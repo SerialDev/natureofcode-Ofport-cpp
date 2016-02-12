@@ -12,7 +12,7 @@
 class motion
 {
 public:
-    mover();
+    motion();
     void update();
     void display();
     void checkEdges();

@@ -5,7 +5,7 @@
    ======================================================================== */
 #include "motion.h"
 
-motion::mover()
+motion::motion()
 {
     location.set(ofRandom(ofGetWidth()), ofRandom(ofGetHeight()));
     velocity.set(ofRandom(-2,2), ofRandom(-2,2));
@@ -22,7 +22,7 @@ void motion::display()
     ofDrawCircle(location.x, location.y, 24);
 }
 
-void motion::checkEdges
+void motion::checkEdges()
 {
     if(location.x > ofGetWidth())
     {
