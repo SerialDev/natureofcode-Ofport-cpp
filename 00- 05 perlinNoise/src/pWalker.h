@@ -3,8 +3,6 @@
    $File: $
    $Date: $
    $Revision: $
-   $Creator: Andres Mariscal $
-   $Notice: (C) Copyright 2015 Andres Mariscal. All Rights Reserved. $
    ======================================================================== */
 
 #define PWALKER_H
