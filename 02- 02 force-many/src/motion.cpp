@@ -5,6 +5,14 @@
    ======================================================================== */
 #include "motion.h"
 
+motion::setup(float m, float x, float y)
+{
+    mass = m;
+    location.set(x,y);
+    velocity.set(0,0);
+    acceleration.set(0,0);
+}
+
 motion::motion()
 {
     location.set(ofGetWidth()/2, ofGetHeight()/2);
@@ -23,7 +31,7 @@ void motion::update()
 void motion::display()
 {
     ofSetColor(150);
-    ofDrawCircle(location.x, location.y, 24);
+    ofDrawCircle(location.x, location.y, mass*24);
 }
 
 void motion::checkEdges()

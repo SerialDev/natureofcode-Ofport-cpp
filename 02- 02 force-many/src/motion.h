@@ -11,6 +11,7 @@
 class motion{
 public:
     motion();
+    void setup(float m, float x, float y);
     void applyForce(ofPoint force);
     void update();
     void display();
